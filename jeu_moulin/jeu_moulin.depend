@@ -1,0 +1,132 @@
+# depslib dependency file v1.0
+1751570820 source:c:\users\traore\desktop\projet_jeu__moulin\jeu_moulin\main.cpp
+	<iostream>
+	<cstdlib>
+	"plateau.h"
+	"jeu.h"
+
+1751564174 c:\users\traore\desktop\projet_jeu__moulin\jeu_moulin\plateau.h
+	<iostream>
+	"decoration.h"
+	"joueur.h"
+	"placement.h"
+	"case.h"
+
+1751511225 c:\users\traore\desktop\projet_jeu__moulin\jeu_moulin\joueur.h
+	<cstring>
+	<iostream>
+
+1751469895 c:\users\traore\desktop\projet_jeu__moulin\jeu_moulin\case.h
+	<iostream>
+	"joueur.h"
+
+1751571351 c:\users\traore\desktop\projet_jeu__moulin\jeu_moulin\decoration.h
+	<iostream>
+	<cstring>
+	<string>
+
+1751564161 source:c:\users\traore\desktop\projet_jeu__moulin\jeu_moulin\placement.cpp
+	<iostream>
+	<limits>
+	<random>
+	<cstdlib>
+	<ctime>
+	"joueur.h"
+	"plateau.h"
+	"case.h"
+	"alignement.h"
+	"deplacement.h"
+	"vol.h"
+
+1751571338 c:\users\traore\desktop\projet_jeu__moulin\jeu_moulin\placement.h
+
+1751418965 source:c:\users\traore\desktop\projet_jeu__moulin\jeu_moulin\decoration.cpp
+	<iostream>
+	<cstring>
+	<string>
+
+1751447983 source:c:\users\traore\desktop\projet_jeu__moulin\jeu_moulin\plateau.cpp
+	<iostream>
+	"plateau.h"
+	"joueur.h"
+	"case.h"
+	"placement.h"
+
+1751561202 source:c:\users\traore\desktop\projet_jeu__moulin\jeu_moulin\alignement.cpp
+	"alignement.h"
+	"case.h"
+	"plateau.h"
+	"joueur.h"
+
+1751561509 c:\users\traore\desktop\projet_jeu__moulin\jeu_moulin\alignement.h
+	"plateau.h"
+	"joueur.h"
+
+1751563269 source:c:\users\traore\desktop\projet_jeu__moulin\jeu_moulin\deplacement.cpp
+	<iostream>
+	<limits>
+	<random>
+	<cstdlib>
+	<ctime>
+	"joueur.h"
+	"plateau.h"
+	"case.h"
+	"voisinage.h"
+	"alignement.h"
+	"deplacement.h"
+
+1751561655 c:\users\traore\desktop\projet_jeu__moulin\jeu_moulin\deplacement.h
+	"alignement.h"
+
+1751474744 source:c:\users\traore\desktop\projet_jeu__moulin\jeu_moulin\voisinage.cpp
+	<iostream>
+	<map>
+	<vector>
+	"alignement.h"
+
+1751474825 c:\users\traore\desktop\projet_jeu__moulin\jeu_moulin\voisinage.h
+	"alignement.h"
+
+1751520134 source:c:\users\traore\desktop\projet_jeu__moulin\jeu_moulin\vol.cpp
+	<iostream>
+	<limits>
+	<random>
+	<cstdlib>
+	<ctime>
+	"joueur.h"
+	"plateau.h"
+	"case.h"
+	"voisinage.h"
+	"alignement.h"
+	"deplacement.h"
+
+1751570643 c:\users\traore\desktop\projet_jeu__moulin\jeu_moulin\vol.h
+	"deplacement.h"
+
+1751528605 c:\users\traore\desktop\projet_jeu__moulin\jeu_moulin\retirer.h
+
+1751555351 source:c:\users\traore\desktop\projet_jeu__moulin\jeu_moulin\retirer.cpp
+	<iostream>
+	<limits>
+	<random>
+	<cstdlib>
+	<ctime>
+	"joueur.h"
+	"plateau.h"
+	"case.h"
+	"voisinage.h"
+	"alignement.h"
+	"deplacement.h"
+	"retirer.h"
+
+1751570813 source:c:\users\traore\desktop\projet_jeu__moulin\jeu_moulin\jeu.cpp
+	<iostream>
+	<cstdlib>
+	"plateau.h"
+	"joueur.h"
+	"case.h"
+	"placement.h"
+	"vol.h"
+
+1751570696 c:\users\traore\desktop\projet_jeu__moulin\jeu_moulin\jeu.h
+

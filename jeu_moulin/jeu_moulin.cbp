@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="jeu_moulin" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/jeu_moulin" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/jeu_moulin" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="alignement.cpp" />
+		<Unit filename="alignement.h" />
+		<Unit filename="case.h" />
+		<Unit filename="decoration.cpp" />
+		<Unit filename="decoration.h" />
+		<Unit filename="deplacement.cpp" />
+		<Unit filename="deplacement.h" />
+		<Unit filename="joueur.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="placement.cpp" />
+		<Unit filename="placement.h" />
+		<Unit filename="plateau.cpp" />
+		<Unit filename="plateau.h" />
+		<Unit filename="voisinage.cpp" />
+		<Unit filename="voisinage.h" />
+		<Unit filename="vol.cpp" />
+		<Unit filename="vol.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
